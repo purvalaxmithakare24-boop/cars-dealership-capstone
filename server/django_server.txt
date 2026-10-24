@@ -1,0 +1,12 @@
+PS C:\Users\hp\cars-dealership-capstone\server> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 25, 2026 - 02:25:57
+Django version 6.1.2, using settings 'dealership_project.settings'
+Starting WSGI development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/6.1/howto/deployment/
