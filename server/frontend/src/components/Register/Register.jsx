@@ -47,7 +47,32 @@ const Register = () => {
             required
           />
         </div>
-
+<div className="register_container" style={{width: "50%"}}>
+  <div className="header">
+    <span className="text">SignUp</span>
+    <hr />
+  </div>
+  <div className="inputs">
+    <div className="input">
+      <input type="text" placeholder="Username" value={userName} onChange={(e) => setUserName(e.target.value)} />
+    </div>
+    <div className="input">
+      <input type="text" placeholder="First Name" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
+    </div>
+    <div className="input">
+      <input type="text" placeholder="Last Name" value={lastName} onChange={(e) => setLastName(e.target.value)} />
+    </div>
+    <div className="input">
+      <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+    </div>
+    <div className="input">
+      <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+    </div>
+  </div>
+  <div className="submit_container">
+    <button className="submit" onClick={register}>Register</button>
+  </div>
+</div>
         <div className="mb-3">
           <label htmlFor="firstName">First Name</label>
           <input
